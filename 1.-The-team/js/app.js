@@ -26,8 +26,7 @@ const [teamName, people] = ['formacion',  ['Pau', 'Cata', 'Silvana', 'Jonh', 'Mi
 
 
 const formatTeamMessage = (teamName, people) => {
-  let message= `Hay $[people.lenght] personas en el equipo de $[teamName] $[\n] Ellos son $[people]
+  let message= `Hay ${people.lenght} personas en el equipo de ${teamName}. Ellos son ${people}`
 console.log(message)
-return message;
 };
 formatTeamMessage(teamName, people);  
